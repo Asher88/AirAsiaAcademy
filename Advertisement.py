@@ -11,9 +11,9 @@ This app predicts sales base on budget You Put On **TV**,**Radio**,**Newspaper**
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
-    TV = st.sidebar.slider('TV', 1.0, 300.0, 100)
-    Radio = st.sidebar.slider('Radio', 1.0, 300.0, 10)
-    Newspaper = st.sidebar.slider('Newspaper', 1.0, 300.0, 10)
+    TV = st.sidebar.slider('TV', 1.0, 300, 100)
+    Radio = st.sidebar.slider('Radio', 1.0, 300, 10)
+    Newspaper = st.sidebar.slider('Newspaper', 1.0, 300, 10)
     data = {'TV': TV,
             'Radio': Radio,
             'Newspaper': Newspaper}
