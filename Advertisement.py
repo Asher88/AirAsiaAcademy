@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 st.write("""
-#Advertising Platform
+# Advertising Platform
 
 This app predicts sales base on budget You Put On **TV**,**Radio**,**Newspaper**
 """)
